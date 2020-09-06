@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="login page.css">
+<style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+  form {border: 3px solid #f1f1f1;}
+  
+  input[type=text], input[type=password] {
+    background color:white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  .container {
+    background color: #ffffff;
+  color: aqua;
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+    align: center;
+     width: 100%;
+  }
+}
+</style>
+  
+
+</head>
+<body>
+
+    <div class="ab">
+        <h1 style="color: aliceblue;"><b>Join Our Community</b></h1>
+        <h6 style="color: lawngreen;"><b>30 days hassle free money back guarantee..</b></h6>
+      <h6 style="color:white">Gain access to our full library of tutorials along with expert
+      code reviews .Perfect for many developers who are serious about honing their skills.</h6>
+      <h6 style="color:lawngreen;"><pre>MONTHLY SUBSCRIPTION</pre>
+      </h6> 
+      <h6 style="color:white">
+        <pre><b>$29</b>per month
+        Full acess for less than $1 a day
+      Login if you want to join us</pre>
+      </h6>  
+    <h2 style="color:aliceblue;">Login Form</h2>
+
+<form action="/action_page.php" method="post">
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+          
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+  <div class="us">
+    <h2 style="color:black;">
+      <u>Why us</u>
+      </h2>
+      <p>
+      <pre>
+        <li> Tutorials by industry experts</li>
+          <li>Peer and expert code review</li>
+              <li> Coding exercises</li>
+                  <li>  Access to our Github repos</li>
+                      <li>  Community forum</li>
+                          <li>  Flashcard decks</li>
+                              <li>  New videos every week</li>
+      </pre></p>
+  </div>
+  <div class="type">
+    <h2 style="color: black;">
+      <u><pre>
+        LEARN
+         IMPLEMENT 
+         AND
+         BOOST YOUR
+         SKILLS
+      </pre></u>
+      </h2>
+  </div>
+  </body>
+  </html>
